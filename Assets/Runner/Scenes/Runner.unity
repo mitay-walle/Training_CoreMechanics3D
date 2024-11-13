@@ -900,28 +900,18 @@ MonoBehaviour:
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: d921bdff188a9404b8dfa7968d68d365,
+  m_ActionsAsset: {fileID: -944628639613478452, guid: c193b9f1ca729f94c83136eedbcad6aa,
     type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: d921bdff188a9404b8dfa7968d68d365,
-    type: 3}
+  m_PointAction: {fileID: 0}
+  m_MoveAction: {fileID: 0}
+  m_SubmitAction: {fileID: 0}
+  m_CancelAction: {fileID: 0}
+  m_LeftClickAction: {fileID: 0}
+  m_MiddleClickAction: {fileID: 0}
+  m_RightClickAction: {fileID: 0}
+  m_ScrollWheelAction: {fileID: 0}
+  m_TrackedDevicePositionAction: {fileID: 0}
+  m_TrackedDeviceOrientationAction: {fileID: 0}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
@@ -1074,9 +1064,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: 0}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
+  m_Actions: {fileID: -944628639613478452, guid: c193b9f1ca729f94c83136eedbcad6aa,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 729003739}
   m_DeviceLostEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1086,10 +1077,54 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5a81d8eb-3cf2-49f6-bbbb-cb50ef8fdcc4
+    m_ActionName: 'Runner/MoveX[/Mouse/leftButton,/Keyboard/leftArrow,/Keyboard/a,/Keyboard/rightArrow,/Keyboard/d,/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 87d4afbe-39d7-4543-8184-a7d6cb5f4745
+    m_ActionName: 'UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fc8a8ff1-bc36-4fdb-8a40-143ed97cc033
+    m_ActionName: 'UI/Submit[/Keyboard/enter]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 65189141-8176-44fb-83d7-7d6752928ac0
+    m_ActionName: 'UI/Cancel[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9281ad1a-79d7-4e7d-ae21-e6f2585565e6
+    m_ActionName: 'UI/Point[/Mouse/position]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ca0ad123-7b19-4459-837c-9d4fbe9b2e29
+    m_ActionName: 'UI/Click[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 12c54c57-2e4a-4a1f-b60f-f2a411570365
+    m_ActionName: 'UI/ScrollWheel[/Mouse/scroll]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 312d186e-f3cb-40b2-9c83-c575f962b35c
+    m_ActionName: 'UI/MiddleClick[/Mouse/middleButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0f59ee20-21c0-4c17-9d06-d1d64904089b
+    m_ActionName: 'UI/RightClick[/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 13f2eb19-57a1-4484-9268-e443f0191470
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e5110f52-5728-4283-a4b6-ae4341d487c0
+    m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultActionMap: Runner
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 330585545}
 --- !u!1 &1675019285
@@ -1375,8 +1410,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c67e4479b3514924e8624893664d66b0, type: 2}
+  m_sharedMaterial: {fileID: 7722266231188379802, guid: c67e4479b3514924e8624893664d66b0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
