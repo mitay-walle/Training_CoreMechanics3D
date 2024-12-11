@@ -1,13 +1,11 @@
 {
-    "name": "Runner",
-    "rootNamespace": "",
+    "name": "AYellowpaper.SerializedCollections.Editor",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:324caed91501a9c47a04ebfd87b68794",
-        "GUID:21d1eb854b91ade49bc69a263d12bee2",
         "GUID:d525ad6bd40672747bde77962f1c401e"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
