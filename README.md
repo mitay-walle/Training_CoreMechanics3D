@@ -8,3 +8,5 @@ Project where i train to build different core gameplay mechaincs, for educationa
 - [Cinemachine 3.1.2](https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html)
 - [Input System 1.11.2](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html)
 - [uGUI](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/index.html)
+- TextMeshPro
+- Arial Unicode Font
