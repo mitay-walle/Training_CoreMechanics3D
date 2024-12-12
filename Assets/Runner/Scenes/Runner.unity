@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97443dcd9cfe444e8e54f1d313c27da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedX: 1
+  _speedX: 0.2
 --- !u!54 &1209217807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1198,7 +1198,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f58127b60616c4aae43dcfb818a353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _walkableChunksFolder: Assets/Runner/Prefabs/Chunks/Walkable
+  _unwalkableChunksFolder: Assets/Runner/Prefabs/Chunks/Unwalkable
+  _walkableChunks:
+  - {fileID: 110615605265103147, guid: b616f098f4fc6bd45ac3b6b89f94976a, type: 3}
+  _unwalkableChunks:
+  - {fileID: 6751291816811336526, guid: a5978cb0944d698489b4266a3c024753, type: 3}
   <LineDistanceX>k__BackingField: 3
+  <LineDistanceZ>k__BackingField: 10
+  _prespawnChunksCount: 10
   Lines:
     _serializedList: []
 --- !u!4 &1392199931
