@@ -18,6 +18,7 @@ namespace Runner.Scripts.LevelGeneration
         [SerializeField, Required] private GameObject[] _unwalkableChunks;
         [field: SerializeField] public float LineDistanceX { get; private set; } = 5;
         [field: SerializeField] public float LineDistanceZ { get; private set; } = 5;
+        [SerializeField] private int _skipChunksCount = 5;
         [SerializeField] private int _prespawnChunksCount = 10;
         [SerializedDictionary] public SerializedDictionary<eLine, LevelLine> Lines = new();
         private List<LevelLine> _buffer = new();
@@ -38,7 +39,7 @@ namespace Runner.Scripts.LevelGeneration
 
             for (int i = 0; i < _prespawnChunksCount; i++)
             {
-                GenerateChunk(LineDistanceZ * i);
+                GenerateChunk(LineDistanceZ * (i + _skipChunksCount));
             }
         }
 

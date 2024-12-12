@@ -1206,6 +1206,7 @@ MonoBehaviour:
   - {fileID: 6751291816811336526, guid: a5978cb0944d698489b4266a3c024753, type: 3}
   <LineDistanceX>k__BackingField: 3
   <LineDistanceZ>k__BackingField: 10
+  _skipChunksCount: 2
   _prespawnChunksCount: 10
   Lines:
     _serializedList: []
